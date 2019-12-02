@@ -5,8 +5,8 @@ from sys import argv
 try:
     _file = argv[1]
     _person = Person(_file)
-    core = Core()
-    core.fill(_person)
+    _core = Core()
+    _core.fill(_person)
 
 except IndexError:
     print('ERROR: no input files')
