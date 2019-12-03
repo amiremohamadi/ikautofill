@@ -13,7 +13,7 @@ a tiny script to fill [https://www.ikco.ir](https://www.ikco.ir/fa/) forms autom
 ```
 $ virtualenv -p python3 .venv
 $ source .venv/bin/activate
-$ (.venv) pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 **NOTE**: edit config.py file and put your webdriver path on it.
