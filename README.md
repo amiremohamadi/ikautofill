@@ -12,14 +12,14 @@ a tiny script to fill [https://www.ikco.ir](https://www.ikco.ir/fa/) forms autom
 ### install
 ```
 $ virtualenv -p python3 .venv
-$ pip install -r requirements.txt
+$ source .venv/bin/activate
+$ (.venv) pip install -r requirements.txt
 ```
 
 **NOTE**: edit config.py file and put your webdriver path on it.
 
 ## usage
 ```
-$ source .venv/bin/activate
 $ python ikautofill.py [sample_file.json]
 ```
 
